@@ -64,10 +64,6 @@ a {
   transform: translate(-50%, -50%);
 }
 
-.page-header .text-uppercase {
-  /* width: auto; */
-}
-
 .page-header .text-uppercase::after {
   content: "";
   height: 1px;
