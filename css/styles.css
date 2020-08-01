@@ -101,6 +101,17 @@ a {
   /* height: 100%; */
 }
 
+.gallery img {
+  transform: scale(1);
+
+  transition: all 0.5s;
+}
+
+.gallery img:hover {
+  transform: scale(1.15);
+  box-shadow: 8px 8px 11px rgba(10, 10, 10, 0.6);
+}
+
 /* Footer */
 
 footer {
