@@ -22,6 +22,10 @@ a {
   min-width: 200px;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Navbar */
 
 .navbar {
@@ -106,6 +110,10 @@ a {
 .gallery img:hover {
   transform: scale(1.15);
   box-shadow: 8px 8px 11px rgba(10, 10, 10, 0.6);
+}
+
+#extended-gallery {
+  height: 100%;
 }
 
 /* Footer */
