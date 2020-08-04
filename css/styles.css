@@ -26,6 +26,10 @@ a {
   display: none;
 }
 
+label {
+  width: 100%;
+}
+
 /* Navbar */
 
 .navbar {
