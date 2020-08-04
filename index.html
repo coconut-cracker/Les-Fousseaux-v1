@@ -275,7 +275,11 @@
         <div class="row justify-content-around">
           <div class="col-md-5">
             <h1 class="mt-5">Contact us:</h1>
-            <form data-netlify="true" name="contact" class="needs-validation" novalidate action="POST">
+            <form data-netlify="true" name="contact" class="needs-validation" novalidate action="POST"
+            netlify-honeypot="bot-field" >
+              <p class="hidden">
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+              </p>
               <div class="form-group">
                 <label for="email">Email address</label>
                 <input
