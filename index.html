@@ -22,7 +22,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark px-0 fixed-top">
-      <div class="container-fluid mx-5">
+      <div class="container-fluid mx-5 justify-content-around">
         <a class="navbar-brand" href="#">Les Fousseaux</a>
         <button
           class="navbar-toggler"
@@ -74,9 +74,9 @@
       <div class="container-fluid p-5 align-center px-5">
         <div class="row text-center justify-content-center mt-4">
           <div class="col-md mb-5 px-4">
-            <img src="img/1.png" class="img-fluid " alt="" />
+            <img src="img/1.png" class="img-fluid" alt="" />
           </div>
-          <div class="col-md text-left px-4 about-info" >
+          <div class="col-md text-left px-4 about-info">
             <h4>
               Les Fousseaux is a charming old farmhouse, nestled in the peaceful
               French countryside on the boarder between the Dordogne and
@@ -259,14 +259,12 @@
             <span>Show more</span><span class="hidden">Show less</span>
           </a>
         </p>
-      
+      </div>
     </section>
 
     <section class="testimonials">
       <div class="container">
-        <div class="card">
-
-        </div>
+        <div class="card"></div>
       </div>
     </section>
 
@@ -275,10 +273,17 @@
         <div class="row justify-content-around">
           <div class="col-md-5">
             <h1 class="mt-5">Contact us:</h1>
-            <form data-netlify="true" name="contact" class="needs-validation" novalidate 
-            netlify-honeypot="bot-field" >
+            <form
+              data-netlify="true"
+              name="contact"
+              class="needs-validation"
+              novalidate
+              netlify-honeypot="bot-field"
+            >
               <p class="hidden">
-                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                <label
+                  >Don’t fill this out if you're human: <input name="bot-field"
+                /></label>
               </p>
               <div class="form-group">
                 <label for="email">Email address</label>
@@ -287,37 +292,44 @@
                   type="email"
                   class="form-control"
                   id="email"
-                  placeholder="name@example.com" required
+                  placeholder="name@example.com"
+                  required
                 />
               </div>
 
               <div class="form-group py-3">
                 <label for="message"
                   >Write your message
-                <textarea
-                  name="message"
-                  class="form-control"
-                  id="message"
-                  rows="3"
-                  required
-                ></textarea></label
-                >
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                    required
+                  ></textarea>
+                </label>
               </div>
               <div data-netlify-recaptcha="true"></div>
-              <button type="submit" class="btn btn-secondary mt-2" >Send</button>
+              <button type="submit" class="btn btn-secondary mt-2">Send</button>
             </form>
-
           </div>
           <div class="col-md-5 my-3">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.471823230033!2d1.374320940836759!3d45.09012094824692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f8a562f83cefe7%3A0x5e9599005e426f5c!2sLes%20Fousseaux!5e0!3m2!1sen!2spl!4v1596459695185!5m2!1sen!2spl" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.471823230033!2d1.374320940836759!3d45.09012094824692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f8a562f83cefe7%3A0x5e9599005e426f5c!2sLes%20Fousseaux!5e0!3m2!1sen!2spl!4v1596459695185!5m2!1sen!2spl"
+              width="500"
+              height="350"
+              frameborder="0"
+              style="border: 0;"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+              id="map"
+            ></iframe>
           </div>
         </div>
       </div>
     </section>
 
-
-
-    
     <script src="js/script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -325,7 +337,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/bootstrap.min.js"></script>
-    
-
   </body>
 </html>

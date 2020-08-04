@@ -24,7 +24,7 @@ a {
   position: relative;
   height: inherit;
   width: auto;
-  min-width: 200px;
+  min-width: 100px;
 }
 
 .hidden {
@@ -33,6 +33,10 @@ a {
 
 label {
   width: 100%;
+}
+
+#map {
+  max-width: 100%;
 }
 
 /* Navbar */
